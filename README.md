@@ -10,5 +10,6 @@ Students are expected to:
 Student Info
 =======================
 
-* Name: *YourNameHere*
-* ID: *YourIdHere*
+* Name: Dang Vu Son Tung
+* ID: USTHBI6-145
+
