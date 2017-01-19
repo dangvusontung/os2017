@@ -1,0 +1,39 @@
+﻿1. ls>m
+cat m|grep list m
+nothing happen because I have no file there
+
+2.wc /etc/passwd
+  40   69 2237 /etc/passwd
+
+3.free
+              tổng        dùng       trống        chsẻ     đệm/tạm    sẵn sàng
+BNhớ:     3927468     1967624      249640      889836     1710204      780408
+Tráo đổi:     8387580        7520     8380060
+
+
+4. cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 69
+model name	: Intel(R) Core(TM) i3-4030U CPU @ 1.90GHz
+stepping	: 1
+microcode	: 0x1d
+cpu MHz		: 1799.730
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+
+cd Ảnh | find -name *.jpg
+./Ảnh/1782022_724894444211531_1469709826_n.jpg
+./Ảnh/1962831_724117814289194_367164269_n.jpg
+
+I’m sorry that I selected Vietnamese during installation so I have some Vietnamese word here.
