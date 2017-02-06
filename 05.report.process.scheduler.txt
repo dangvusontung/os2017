@@ -1,0 +1,11 @@
+﻿tung@Tung:~$ cat /proc/sched_debug|grep "systemd"
+ systemd-journal   914       166.566730      2779   120        76.672708       529.498916   6920463.580528 0 0 /autogroup-8
+ systemd-timesyn  2461         3.015408       126   120         0.489169        28.278574   6832163.177047 0 0 /autogroup-36
+         systemd  2892         0.650395        12   120         0.878160        26.265410   2315040.481735 0 0 /autogroup-80
+         systemd     1       392.000543      2093   120        64.832508      1523.845982   6906097.173014 0 0 /autogroup-2
+  systemd-logind  2593        18.537406       680   120        33.696114        69.473685   6873816.404340 0 0 /autogroup-47
+   systemd-udevd   940      2636.764875       805   120        97.101256      1052.934961   6898706.413509 0 0 /autogroup-12
+tung@Tung:~$ cat /proc/1/sched | grep "switches"
+nr_switches                                  :                 2222
+nr_voluntary_switches                        :                 1850
+nr_involuntary_switches                      :                  372
