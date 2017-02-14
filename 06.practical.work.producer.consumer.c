@@ -52,14 +52,14 @@ int main(){
 	i2.unit = '0';
 
 
-	printf("Producing item 1 : type=%c, amount= %d, unit = %c", i1.type, i1.amount, i1);
+	printf("Producing item 1 : type=%c, amount= %d, unit = %c", i1.type, i1.amount, i1.);
 	produce(&i1);
 	printf("First = %d  Last = %d\n",first,last);
 
 
 
 
-	printf("Producing item 1 : type=%c, amount= %d, unit = %c", i2.type, i2.amount, i2);
+	printf("Producing item 2 : type=%c, amount= %d, unit = %c", i2.type, i2.amount, i2.);
 	produce(&i2);
 	printf("First = %d  Last = %d\n",first,last);
 
